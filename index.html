@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="#3E4EB8" />
+
+        <title>Pick a starter!</title>
+        <!-- Material Design Light -->
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.light_blue-blue.min.css" />
+        <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="styles/inline.css" />
+
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="manifest" href="manifest.json" />
+    </head>
+    <body>
+        <div class="mdl-card picker-card mdl-shadow--2dp">
+            <div class="mdl-card__title">
+                Picker
+            </div>
+            <div class="mdl-card__media">
+                <img id="image" class="centered" width="250" height="250" src="images/bulbasaur.png" alt="Bulbasaur" />
+            </div>
+            <div class="mdl-card__actions centered-div-parent">
+                <div class="centered">
+                    <button id="butBulbasaur" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+                        Bulbasaur
+                    </button>
+                    <button id="butCharmander" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                        Charmander
+                    </button>
+                    <button id="butSquirtle" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                        Squirtle
+                    </button>
+                </div>
+            </div>
+            <div class="mdl-card__actions centered-div-parent">
+                <div class="centered">
+                    <button id="butShare" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                        Make a Note
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title">
+                Notifications
+            </div>
+            <div class="mdl-card__supporting-text">
+                <pre id="notificationsEnabled">Pending</pre>
+            </div>
+            <div class="mdl-card__actions centered-div-parent">
+                <div class="centered">
+                    <button id="butRequest" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                        Request Permission
+                    </button>
+                    <button id="butNotify" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                        Notify
+                    </button>
+                    <button id="butCancel" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                        Cancel
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title">
+                Workers
+            </div>
+            <div class="mdl-card__supporting-text">
+                <pre id="response"></pre>
+            </div>
+            <div class="mdl-card__actions centered-div-parent">
+                <div class="centered">
+                    <button id="butMessageWorker" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                        Message Worker
+                    </button>
+                    <button id="butMessageClient" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                        Message Client
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title">
+                URL
+            </div>
+            <div class="mdl-card__supporting-text">
+                <span id="url"></span>
+            </div>
+        </div>
+
+        <div class="mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title">
+                Links
+            </div>
+            <div class="mdl-card__supporting-text">
+                <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red_and_Blue">The Game</a><br />
+                <a href="https://en.wikipedia.org/wiki/Bulbasaur" target="_blank">Bulbasaur</a><br />
+                <a href="https://en.wikipedia.org/wiki/Charmander" target="_blank">Charmander</a><br />
+                <a href="https://en.wikipedia.org/wiki/Squirtle">Squirtle</a><br />
+                <a href="no-page.html">Dead link</a><br />
+                <a href="tel:02079460013">Phone number</a><br />
+            </div>
+        </div>
+
+        <div class="mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title">
+                Cookies
+            </div>
+            <div class="mdl-card__supporting-text">
+                <span id="cookie"></span>
+            </div>
+        </div>
+
+        <script src="scripts/app.js" async></script>
+    </body>
+</html>

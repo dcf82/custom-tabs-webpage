@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.customtabs.demo",
+    "sha256_cert_fingerprints":
+    ["4F:81:FE:B5:FC:48:CF:39:EB:C9:C5:1A:30:DC:4B:CF:A0:9D:79:47:3A:3B:92:38:C1:01:88:DA:DF:08:75:21"]
+  }
+}]
