@@ -1,9 +1,26 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.customtabs.demo",
-    "sha256_cert_fingerprints":
-    ["DA:E6:BC:E1:AE:85:98:77:AF:89:F4:C1:3A:9E:22:09:43:7B:57:5E:55:26:55:C8:7A:65:B4:1E:14:13:3B:18"]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.customtabs.demo",
+      "sha256_cert_fingerprints": [
+        "DA:E6:BC:E1:AE:85:98:77:AF:89:F4:C1:3A:9E:22:09:43:7B:57:5E:55:26:55:C8:7A:65:B4:1E:14:13:3B:18"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.use_as_origin"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.customtabs.demo",
+      "sha256_cert_fingerprints": [
+        "DA:E6:BC:E1:AE:85:98:77:AF:89:F4:C1:3A:9E:22:09:43:7B:57:5E:55:26:55:C8:7A:65:B4:1E:14:13:3B:18"
+      ]
+    }
   }
-}]
+]
