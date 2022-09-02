@@ -52,7 +52,8 @@
               img: img.src,
               url: window.location.origin + window.location.pathname + "?notification=true"
             },
-            launchUrl: 'https://peconn.github.io/starters/?launched=true'
+            //launchUrl: 'https://peconn.github.io/starters/?launched=true'
+            launchUrl: 'https://master.ds1902kx4fxqy.amplifyapp.com'
           };
 
           if (Notification.permission !== "granted") {
@@ -102,19 +103,19 @@
     clientButton.disabled = true;
     window.addEventListener("message", function(event) {
       console.log("[PostMessage] Got initial message.");
-      appendOutput("Got initial message.");
+      appendOutput("Initial message received.");
 
       var port = event.ports[0];
       if (typeof port === 'undefined') return;
 
       console.log("[PostMessage] Got message port.");
-      appendOutput("Got message port.");
+      appendOutput("Message Port available.");
 
-      port.postMessage("Connected");
+      port.postMessage("Message Port available.");
 
       clientButton.disabled = false;
       clientButton.addEventListener('click', function() {
-        port.postMessage(img.alt);
+        port.postMessage(`You have selected: ${img.alt}`);
       });
 
       port.onmessage = function(event) {
@@ -124,6 +125,7 @@
       };
     });
   }
+  
   console.log("[PostMessage] Listener registered.");
 
   const shareButton = document.getElementById('butShare');
@@ -155,8 +157,7 @@
   }
 
   function setCookie(name, value) {
-    var year = 60*60*25*365;
-    // Yes this is ugly...
+    var year = 60 * 60 * 25 * 365;
     var domain = document.location.hostname;
     if (domain === "localhost") {
       document.cookie = `${name}=${value} ;max-age=${year} ;path=/`;
