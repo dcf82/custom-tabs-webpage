@@ -7,7 +7,8 @@
       "namespace": "android_app",
       "package_name": "com.customtabs.demo",
       "sha256_cert_fingerprints": [
-        "DA:E6:BC:E1:AE:85:98:77:AF:89:F4:C1:3A:9E:22:09:43:7B:57:5E:55:26:55:C8:7A:65:B4:1E:14:13:3B:18"
+        "DA:E6:BC:E1:AE:85:98:77:AF:89:F4:C1:3A:9E:22:09:43:7B:57:5E:55:26:55:C8:7A:65:B4:1E:14:13:3B:18",
+        "11:90:DD:A2:24:CF:82:CE:68:7E:BE:2E:05:61:FC:29:BC:69:56:FC:04:BF:62:E5:BE:53:92:D0:2D:5C:0B:F2"
       ]
     }
   },
@@ -19,7 +20,8 @@
       "namespace": "android_app",
       "package_name": "com.customtabs.demo",
       "sha256_cert_fingerprints": [
-        "DA:E6:BC:E1:AE:85:98:77:AF:89:F4:C1:3A:9E:22:09:43:7B:57:5E:55:26:55:C8:7A:65:B4:1E:14:13:3B:18"
+        "DA:E6:BC:E1:AE:85:98:77:AF:89:F4:C1:3A:9E:22:09:43:7B:57:5E:55:26:55:C8:7A:65:B4:1E:14:13:3B:18",
+        "11:90:DD:A2:24:CF:82:CE:68:7E:BE:2E:05:61:FC:29:BC:69:56:FC:04:BF:62:E5:BE:53:92:D0:2D:5C:0B:F2"
       ]
     }
   }
